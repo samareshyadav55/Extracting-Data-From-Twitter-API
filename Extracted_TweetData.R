@@ -8,8 +8,9 @@ twitter_token <- create_token(consumer_key = key,consumer_secret = secret,access
 identical(twitter_token, get_token())
 tweet_data <- get_timeline(user = "elevate_energy", n = 4000)
 
-foo = data.frame(tweet_data)
-#my.df <- data.frame(lapply(foo, as.character), stringsAsFactors=FALSE)
+my.df = data.frame(tweet_data)
+write.csv(my.df,"path of the file /tweetdata.csv")
 dim(foo)
 tesla <- search_tweets("tesla", n = 2000, include_rts = FALSE)
+#TRENDS OF TWITTER API
 trends<-get_trends('Chicago')
