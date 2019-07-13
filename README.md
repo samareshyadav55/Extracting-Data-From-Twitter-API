@@ -16,10 +16,21 @@ By this Method you will get the huge data based on popular query people used in 
 ------------------------------------------------------------------------------------------------------------------------------------------
 In this Repository I converted the data-->data.frame-->CSV format in your local Path.
 
-<b>Trends from Twitter API</b>
-Extracted twitter Trends from Perticular Location.
-By using this Trends You will Get what is the trend query based on the Location.
+<h2>Trends from Twitter API</h2>
 
-Uses of Twitter data
+Extracted Twitter Trends From Perticular Location called City,State,etc.,.
+
+ By using this Trends You will Get top 50 trends names based on the Location.
+
+<h2>Uses of Twitter data</h2>
   -->We can Use by read user profiles and data of followers.
-I also Extracted Twitter Trends From Perticular Location called City,State,etc.,.
+  
+  We can use Twitter Text column data using Natural Language Process so Based on NLP it says weather it is positive tweet or negative or neutral.
+  
+  Based on NLP process we can visualize How many Negative,positive tweets are occured.
+  
+  We have Libraries Like TextBlob,nltk,etc., in <b>python</b>
+  
+  Note: In Next Repositories I will Explain about how to do sentiment analysis.
+
+You can use the Twitter API to update your status or send Tweets and media to other users without actually logging into Twitter. You can also pull a list of the latest Tweets about a specific hashtag or from other users in your geographic location.
