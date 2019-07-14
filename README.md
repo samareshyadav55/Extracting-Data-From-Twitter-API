@@ -3,7 +3,7 @@ In this Repository The Code I writtern in R language
 
 There is a <b>rtwitter</b> Library It is most useful library in R By using this library we can extract the twitter Limited Rows(up to 3000 rows maximum) From the API.
 
-You will get API KEYS from Twitter Authentication aPI/ 
+Create Application(APP)keys from Twitter Developer account and apply on code.
 
 Two methods follows:
 
