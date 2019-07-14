@@ -27,7 +27,7 @@ Extracted Twitter Trends From Perticular Location called City,State,etc.,.
 <h2>Uses of Twitter data</h2>
   -->We can Use by read user profiles and data of followers.
   
-  We can use Twitter Text column data using Natural Language Process so Based on NLP it says weather it is positive tweet or negative or neutral.
+  We can use Twitter Text column data using <b>Natural Language Processing</b>. so Based on NLP it says weather it is positive tweet or negative or neutral.
   
   Based on NLP process we can visualize How many Negative,positive tweets are occured.
   
