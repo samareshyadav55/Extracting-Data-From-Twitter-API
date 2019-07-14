@@ -6,7 +6,7 @@ access_token='#####'
 access_secret='###############'
 twitter_token <- create_token(consumer_key = key,consumer_secret = secret,access_token = access_token,access_secret = access_secret)
 identical(twitter_token, get_token())
-tweet_data <- get_timeline(user = "elevate_energy", n = 4000)
+tweet_data <- get_timeline(user = "trump", n = 4000)
 
 my.df = data.frame(tweet_data)
 write.csv(my.df,"path of the file /tweetdata.csv")
