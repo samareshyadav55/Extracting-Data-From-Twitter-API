@@ -1,4 +1,6 @@
 # Extracting-Data-From-Twitter-API
+
+<img src='https://github.com/samareshyadav55/Extracting-Data-From-Twitter-API/blob/master/Untitled.png'>
 In this Repository The Code I writtern in R language
 
 There is a <b>rtwitter</b> Library It is most useful library in R By using this library we can extract the twitter Limited Rows(up to 3000 rows maximum) From the API.
